@@ -1,0 +1,11 @@
+{
+  "es_url": "http://aria-products.jpl.nasa.gov:9200",
+  "aoi_index": "grq_area_of_interest",
+  "configs": [ 
+    {
+      "platform": "ERS-1",
+      "level" : "L1",
+      "dedup_redis_key" : "granules-ers-1_l1"
+    }
+  ]
+}

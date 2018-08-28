@@ -1,0 +1,312 @@
+commit 2847ae408d65e4d622656f1ec1c6d70b59212860
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Apr 13 13:08:59 2017 +0000
+
+    fix bug calling exception
+
+commit b24ed8df6e459d6fa91f51c8facbe34ef393afc3
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Feb 22 16:02:22 2017 -0800
+
+    updated GRD files to pull only HD and HS types
+
+commit aae364861825b4f521ea1bff584971858a2d53fe
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Feb 22 05:00:30 2017 -0800
+
+    update to v2 query
+
+commit c909e7c0366939c8f7c0011db5c54e76f48397b2
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Feb 7 21:08:13 2017 +0000
+
+    jlinick: no longer passing creds on command line
+
+commit 6b8755e8bd92e16c214e33fa621a52a7b607feeb
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Mon Oct 10 09:31:43 2016 -0700
+
+    added S1B to return from query
+
+commit 1a9b86c275446783623102ff567251480cc1fdc2
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jun 14 12:51:42 2016 -0700
+
+    slc only
+
+commit 7b9c200cc4d88b40c6a554bbb1b8a926f1117934
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Jun 14 18:21:54 2016 +0000
+
+    no longer needed
+
+commit 3538e94f38777a21b4f5b38f93a41b0c567f45e2
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jun 14 10:36:02 2016 -0700
+
+    set as GetOauthUrl
+
+commit cce52a934cbc47bf1ffa88adf8eeb79284889a84
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jun 14 10:30:38 2016 -0700
+
+    added getOauthType function call
+
+commit b45e6880d17b9b4c2bb4d13b123b03d07b12be46
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sun Jun 12 14:53:53 2016 -0700
+
+    regex fix
+
+commit e3dfa67b642f7a186746370ecc694ca312e3d49d
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sun Jun 12 14:52:40 2016 -0700
+
+    regex fix
+
+commit 10bffe690b2f365694575700114c41e4b36cf074
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 11 20:45:50 2016 -0700
+
+    Update asf_query.py
+
+commit dd9e747c06d6ec64037a0d30fe182133584a4d17
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 11 20:32:14 2016 -0700
+
+    update asf auth/query params
+
+commit 9c6a1ac0fb91fcf899637493b23f4774e820c224
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 11 18:32:48 2016 -0700
+
+    removed old files
+
+commit e1810f101fa68c8d27640b93d3b87b388fad979e
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 11 18:22:09 2016 -0700
+
+    basic qquery asf version
+
+commit 8fb90a3a22d9961dd35e12d1cf9aaa6ed52be6df
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Apr 19 18:07:54 2016 +0000
+
+    set default daysback to 2 weeks
+
+commit fdf82a0011796b3d055c817b8fb86d86faf08b09
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Apr 15 02:48:57 2016 +0000
+
+    add script to fix redis set of encountered granules
+
+commit 1b9dc640625ec23c56f5cbdf02ef9f6d427d48db
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Apr 15 00:10:47 2016 +0000
+
+    set PDL AOI with priority 9
+
+commit bd0ee5d7b6ba3e642cc1defaa9ec747cdc0b1480
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Apr 14 22:49:13 2016 +0000
+
+    add moving window implementation
+
+commit f5f932daadec609330fa3e79d2058a52a6ad945e
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Apr 14 17:01:47 2016 +0000
+
+    handle alternate date format for sceneDate
+
+commit fe35533654ad80f3ccd6d4f2e2b4cdb81b408e92
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Apr 12 14:12:34 2016 +0000
+
+    set redis dedup key in config; store granule basename to work across data sources; make atomic
+
+commit 038d9b54468632aae5ea2bd237638601884c0f04
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Mon Apr 11 21:38:35 2016 +0000
+
+    track urls downloaded and submit jobs for those not already submitted
+
+commit b258ee857c14f63271a0cf987f4b70bbdd0f8be1
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Mon Mar 28 23:25:08 2016 +0000
+
+    point to correct bucket
+
+commit 78d3c18533cf1ff95c3197513bf8e54adbe9cd07
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Mon Mar 28 14:28:50 2016 +0000
+
+    repo at us-gov-west-1
+
+commit 495bc0a2925887dbb2b04c92258c690d573c527d
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Mar 24 21:49:37 2016 +0000
+
+    repo at us-west-1
+
+commit 65c06e96f5b95fac880adc894235a145ee0a35d0
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Mar 15 04:57:43 2016 +0000
+
+    sling to S3; remove ALOS for now
+
+commit 6b75a1a07475a6bfd5a199f2677c3ed9fb038be1
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Mar 15 04:35:06 2016 +0000
+
+    use priority from config
+
+commit 87fe89dd9a1d956a51c3f851232a0475a8d7982f
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Dec 10 19:49:43 2015 +0000
+
+    initialize fail flag
+
+commit 1b991d0846033629b354805fc58e95f189c1bbf1
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Dec 10 19:29:14 2015 +0000
+
+    catch errors and dump for HySDS
+
+commit 88603058cf02b3efd5ae0df75a5261fbf12ad3a2
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Thu Dec 10 15:38:51 2015 +0000
+
+    update
+
+commit 877a1ae7d2037da1d25a5823f0b9d9b769275323
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Nov 4 22:02:56 2015 +0000
+
+    fix download of Sentinel-1A SLC
+
+commit 2a46a7315c5701fcc9bb34717365923ca7cfcc9d
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Nov 4 18:53:38 2015 +0000
+
+    add Sentinel-1A SLC.
+
+commit 4b3498e6b5d3b90f5a354e238377174d9b5fc988
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Sat Oct 24 17:51:12 2015 +0000
+
+    fix keyname generation
+
+commit 6a8b2d85e735c57c6e2390c26e6dd71b0143d414
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Sat Oct 24 17:17:13 2015 +0000
+
+    set higher priority for subsequent sling jobs
+
+commit 5164d0c8ed6e9242954df3eb2a9b5bd4f936c963
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Sep 9 15:41:54 2015 +0000
+
+    removed ERS-1
+
+commit 48ee1dd3bbc365592819278012988e5fc21f0378
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Sat Sep 5 00:40:42 2015 +0000
+
+    glob for context file
+
+commit 65cd2a6adde832ece19d5cc8bf042ec992dc19fb
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Sat Sep 5 00:01:41 2015 +0000
+
+    add prod_date
+
+commit 4a79adb668088a5a1da7f959382e77bd7a988839
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 23:32:25 2015 +0000
+
+    move context file to recognizable filename scheme
+
+commit b10254848af19794f3297bab6186920f950972b1
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 23:11:43 2015 +0000
+
+    fix browse extraction
+
+commit 1b87be81fae6f05201af1ed25721a4304b1a0593
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 23:02:39 2015 +0000
+
+    get browse image
+
+commit 39e7808d25020f753a5357ac147e8336661cbb51
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 22:54:38 2015 +0000
+
+    fixed objectid extraction
+
+commit 1f19bc4becf299fc82d1916ee4260253cba85e2b
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 21:30:56 2015 +0000
+
+    updated
+
+commit f8c5d5a792902976bb64e0e2d80de779d203f940
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 19:56:23 2015 +0000
+
+    save ERS-1 config
+
+commit 8ecaea1f3bc3bbf0b0bac2c310b79bf5749e5d20
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 18:20:14 2015 +0000
+
+    make AOI query default
+
+commit 275e153ab0ad908fb5478dbb6363970c44f16c19
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Fri Sep 4 16:21:44 2015 +0000
+
+    added query script that utilizes AOI products
+
+commit 4296b76738f1bc90e0c1b346f97dc5d07359f5a5
+Merge: 8bd49a9 e9ef50a
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Sep 2 17:34:33 2015 +0000
+
+    Merge branch 'master' of github.jpl.nasa.gov:aria-hysds/asf-query
+
+commit 8bd49a9c80700be456db2086cd1f514851d6ebf0
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Sep 2 17:34:24 2015 +0000
+
+    initial implementation
+
+commit e9ef50a25c1d52f9f0f755f9f53df6bfb24546d3
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Sep 2 14:38:07 2015 +0000
+
+    use scene_id and processing level for ID.
+
+commit e72c480538fe79f85ec713457fe74a820ff16258
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Sep 1 20:42:05 2015 +0000
+
+    initial implementation
+
+commit efb846eb25220b714d885fce5d27f1811b91ad2f
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Sep 1 19:48:44 2015 +0000
+
+    updated to pass in creds and write to proper filename
+
+commit c77b5e1b08531545a68dba37aa2c98d1415e426d
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Sep 1 18:46:02 2015 +0000
+
+    save script developed by ASF and test script
+
+commit de7b5563d23ebb1235ea31c34ba3e32444c2c342
+Author: Gerald Manipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Sep 1 11:44:43 2015 -0700
+
+    Initial commit

@@ -1,0 +1,42 @@
+[
+  {
+    "name" : "Nepal - ALOS - L1.0",
+    "platform": "ALOS",
+    "bounds" : [[87,29],
+                [87,26],
+                [83,26],
+                [83,29],
+                [87,29]],
+    "level" : "L1.0"
+  },
+  {
+    "name" : "Nepal - ERS-1 - L1.0",
+    "platform": "ERS-1",
+    "bounds" : [[87,29],
+                [87,26],
+                [83,26],
+                [83,29],
+                [87,29]],
+    "level" : "L1"
+  },
+  {
+    "name" : "Okmok Volcano - ALOS - L1.0",
+    "platform": "ALOS",
+    "bounds" : [[-167,54],
+                [-167,52],
+                [-170,52],
+                [-170,54],
+                [-167,54]],
+    "level" : "L1.0"
+  },
+  {
+    "name" : "Okmok Volcano - ERS-1 - L1.0",
+    "platform": "ERS-1",
+    "bounds" : [[-167,54],
+                [-167,52],
+                [-170,52],
+                [-170,54],
+                [-167,54]],
+    "level" : "L1"
+  }
+] 

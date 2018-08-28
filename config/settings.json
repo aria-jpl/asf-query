@@ -1,0 +1,11 @@
+{
+  "es_url": "http://aria-products.jpl.nasa.gov:9200",
+  "aoi_index": "grq_area_of_interest",
+  "configs": [ 
+    {
+      "platform": "Sentinel-1A",
+      "level" : "SLC",
+      "dedup_redis_key" : "granules-s1a_slc"
+    }
+  ]
+}
